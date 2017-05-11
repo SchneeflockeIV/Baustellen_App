@@ -6,7 +6,7 @@
     <string name="passwort">Passwort</string>
     <string name="buttonLogin">Login</string>
     <string name="buttonAbbrechen">Abbrechen</string>
-    <string name="passwortvergessen">Haben Sie Ihren Passwort vergessen Klickn Sie hier.</string>
+    <string name="passwortvergessen">Haben Sie Ihr Passwort vergessen Klickn Sie hier.</string>
     <string name="keinacc">Kein Account? Kicken Sie hier um eins zu erstellen.</string>
 
 </resources>
