@@ -50,6 +50,4 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    //bla
-    //wtf bra
 }
