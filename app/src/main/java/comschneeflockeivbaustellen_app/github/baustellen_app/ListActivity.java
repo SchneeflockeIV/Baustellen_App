@@ -12,7 +12,10 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ListView;
 
-public class MainActivity extends AppCompatActivity {
+public class ListActivity extends AppCompatActivity {
+
+    ListView listView;
+    DbManager db;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +32,18 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+
+        listView = (ListView) findViewById(R.id.LIST_LISTVIEW);
+
+        db = new DbManager(this);
+        Context ctx = this;
+        int itemLayout = R.layout.simple_list_image_item_2;
+     //   Cursor cursor = db.selectAllePersonen();
+
+      //  String[] from = new String[] {db.SPALTE_PERSONEN_BILD, db.SPALTE_PERSONEN_NAME, db.SPALTE_PERSONEN_ADRESSE};
+        int[] to = new int[] {R.id.LIST_IMAGE, R.id.LIST_TITLE, R.id.LIST_SUBTITLE};
+    //    ListAdapter la = new ListAdapter(ctx, itemLayout, cursor, from, to, 0);
+    //    listView.setAdapter(la);
     }
 
     @Override
