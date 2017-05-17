@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/gridLayout">
+
+        <TextView
+            android:id="@+id/AccountErstellen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#DDDDDD"
+            android:background="#39424d"
+            android:padding="10dp"
+            android:text="@string/acc" />
+
+        <Spinner
+            android:id="@+id/anredeSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/anrede">
+        </Spinner>
+
+        <Spinner
+            android:id="@+id/rangSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/rang">
+        </Spinner>
+
+        <EditText
+            android:id="@+id/vorName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/vorname" />
+
+        <EditText
+            android:id="@+id/nachName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/nachname" />
+        <EditText
+            android:id="@+id/STRASSE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/strasse" />
+
+        <EditText
+            android:id="@+id/HAUSNUMMER"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hausnummer" />
+
+        <EditText
+            android:id="@+id/ORT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/ort" />
+
+        <EditText
+            android:id="@+id/PLZ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/plz" />
+
+        <EditText
+            android:id="@+id/TNUMMER"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:hint="@string/tnummer" />
+
+        <EditText
+            android:id="@+id/PASSWORD1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/passwort" />
+
+        <EditText
+            android:id="@+id/PASSWORD2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/passwort" />
+
+
+    </GridLayout>
+
+    <LinearLayout
+        android:id="@+id/BUTTONSACCERSTELLEN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/buttonAbbrechen"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="@string/buttonAbbrechen"/>
+
+        <Button
+            android:id="@+id/buttonACCERSTELLEN"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="@string/buttonerstellen" />
+
+    </LinearLayout>
+
+</ScrollView>
