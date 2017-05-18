@@ -4,6 +4,7 @@
     <string name="login">Login</string>
     <string name="benutzername">Benutzername</string>
     <string name="passwort">Passwort</string>
+    <string name="passwort1">Passwort bestätigen</string>
     <string name="buttonLogin">Login</string>
     <string name="buttonAbbrechen">Abbrechen</string>
     <string name="passwortvergessen">Haben Sie Ihr Passwort vergessen Klickn Sie hier.</string>
@@ -12,15 +13,11 @@
     <string name="vorname">Vorname</string>
     <string name="nachname">Nachname</string>
     <string name="anrede">Anrede</string>
-    <string-array name="anrede_array">
-        <item>Herr</item>
-        <item>Frau</item>
-    </string-array>
+    <string name="frau">Frau</string>
+    <string name="herr">Herr</string>
+    <string name="geselle">Geselle</string>
+    <string name="meister">Meister</string>
     <string name="rang">Rang</string>
-    <string-array name="rang_array">
-        <item>Geselle</item>
-        <item>Meister</item>
-    </string-array>
     <string name="strasse">Straße</string>
     <string name="hausnummer">Hausnummer</string>
     <string name="ort">Ort</string>

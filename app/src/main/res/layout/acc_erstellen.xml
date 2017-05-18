@@ -6,11 +6,12 @@
     android:layout_height="match_parent"
     android:padding="10dp">
 
-    <GridLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:id="@+id/gridLayout">
+        android:id="@+id/gridLayout"
+        android:background="#dddddd">
 
         <TextView
             android:id="@+id/AccountErstellen"
@@ -22,19 +23,69 @@
             android:padding="10dp"
             android:text="@string/acc" />
 
-        <Spinner
-            android:id="@+id/anredeSpinner"
+        <RadioGroup
+            android:id="@+id/GESCHLECHT"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/anrede">
-        </Spinner>
+            android:orientation="horizontal"
+            android:background="#dddddd"
+            android:gravity="center_horizontal"
+            android:padding="10dp">
+            <TextView
+                android:textSize="20sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/anrede"
+                android:layout_weight="1.0"/>
+            <RadioButton
+                android:id="@+id/FRAU"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="@string/frau"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"/>
+            <RadioButton
+                android:id="@+id/HERR"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="@string/herr"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"/>
+        </RadioGroup>
 
-        <Spinner
-            android:id="@+id/rangSpinner"
+        <RadioGroup
+            android:id="@+id/RANG"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/rang">
-        </Spinner>
+            android:orientation="horizontal"
+            android:background="#dddddd"
+            android:gravity="center_horizontal"
+            android:padding="10dp">
+            <TextView
+                android:textSize="20sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/rang"
+                android:layout_weight="1.0"/>
+            <RadioButton
+                android:id="@+id/GESELLE"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="@string/geselle"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"/>
+            <RadioButton
+                android:id="@+id/MEISTER"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="@string/meister"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"/>
+        </RadioGroup>
 
         <EditText
             android:id="@+id/vorName"
@@ -88,30 +139,33 @@
             android:id="@+id/PASSWORD2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/passwort" />
+            android:hint="@string/passwort1" />
 
-
-    </GridLayout>
-
-    <LinearLayout
-        android:id="@+id/BUTTONSACCERSTELLEN"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <Button
-            android:id="@+id/buttonAbbrechen"
-            android:layout_width="0dp"
+        <LinearLayout
+            android:id="@+id/BUTTONACCERSTELLEN"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1.0"
-            android:text="@string/buttonAbbrechen"/>
+            android:paddingTop="10dp">
 
-        <Button
-            android:id="@+id/buttonACCERSTELLEN"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1.0"
-            android:text="@string/buttonerstellen" />
+            <Button
+                android:id="@+id/buttonAbbrechen"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="@string/buttonAbbrechen"/>
+
+            <Button
+                android:id="@+id/buttonACCERSTELLEN"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="@string/buttonerstellen" />
+
+        </LinearLayout>
+
 
     </LinearLayout>
+
+
 
 </ScrollView>
