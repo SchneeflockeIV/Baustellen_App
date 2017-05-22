@@ -1,14 +1,17 @@
 <resources>
     <string name="app_name">Baustellen_App</string>
     <string name="action_settings">Settings</string>
+
+    //Login.xml
     <string name="login">Login</string>
     <string name="benutzername">Benutzername</string>
     <string name="passwort">Passwort</string>
-    <string name="passwort1">Passwort bestätigen</string>
     <string name="buttonLogin">Login</string>
     <string name="buttonAbbrechen">Abbrechen</string>
     <string name="passwortvergessen">Haben Sie Ihr Passwort vergessen Klickn Sie hier.</string>
     <string name="keinacc">Kein Account? Kicken Sie hier um eins zu erstellen.</string>
+
+    //AccErstellen.xml
     <string name="acc">Account Erstellen</string>
     <string name="vorname">Vorname</string>
     <string name="nachname">Nachname</string>
@@ -23,6 +26,7 @@
     <string name="ort">Ort</string>
     <string name="plz">Plz</string>
     <string name="tnummer">Telefonnummer</string>
+    <string name="passwort1">Passwort bestätigen</string>
     <string name="buttonerstellen">Erstellen</string>
 
 </resources>
