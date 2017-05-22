@@ -55,8 +55,13 @@
                 android:paddingRight="10dp"/>
         </RadioGroup>
 
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
         <RadioGroup
-            android:id="@+id/RANG"
+            android:id="@+id/GRAD"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
@@ -67,7 +72,7 @@
                 android:textSize="20sp"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="@string/rang"
+                android:text="@string/grad"
                 android:layout_weight="1.0"/>
             <RadioButton
                 android:id="@+id/GESELLE"
@@ -87,6 +92,11 @@
                 android:paddingRight="10dp"/>
         </RadioGroup>
 
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
         <EditText
             android:id="@+id/vorName"
             android:layout_width="match_parent"
@@ -98,29 +108,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/nachname" />
-        <EditText
-            android:id="@+id/STRASSE"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/strasse" />
-
-        <EditText
-            android:id="@+id/HAUSNUMMER"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/hausnummer" />
-
-        <EditText
-            android:id="@+id/ORT"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/ort" />
-
-        <EditText
-            android:id="@+id/PLZ"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/plz" />
 
         <EditText
             android:id="@+id/TNUMMER"
@@ -167,7 +154,6 @@
 
 
     </LinearLayout>
-
 
 
 </ScrollView>
