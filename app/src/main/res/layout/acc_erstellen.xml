@@ -133,12 +133,14 @@
             android:id="@+id/PASSWORD1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:inputType="textPassword"
             android:hint="@string/passwort" />
 
         <EditText
             android:id="@+id/PASSWORD2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:inputType="textPassword"
             android:hint="@string/passwort1" />
 
         <LinearLayout
