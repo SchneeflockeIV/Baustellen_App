@@ -21,6 +21,10 @@ public class MainActivity extends AppCompatActivity  {
         setContentView(R.layout.acc_erstellen);
     }
 
+    public void passVerg(View v){
+        setContentView(R.layout.password_vergessen);
+    }
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

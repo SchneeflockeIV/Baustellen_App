@@ -98,6 +98,12 @@
             android:background="@android:color/darker_gray"/>
 
         <EditText
+            android:id="@+id/BENUTZERNAME"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/benutzername"/>
+
+        <EditText
             android:id="@+id/vorName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

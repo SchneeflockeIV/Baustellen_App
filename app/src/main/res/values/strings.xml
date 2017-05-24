@@ -29,4 +29,10 @@
     <string name="passwort1">Passwort bestätigen</string>
     <string name="buttonerstellen">Erstellen</string>
 
+    //passwort vergessen.xml
+    <string name="passverg">Neues Password erstellen</string>
+    <string name="accname">Account Name</string>
+    <string name="passwort2">Neues Password</string>
+    <string name="buttonbestaetigen">Bestätigen</string>
+
 </resources>
