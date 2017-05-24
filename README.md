@@ -7,4 +7,4 @@ Simple Android Project to handle information (i.e text, img) in lists.
 
 *License: MIT-License.
 
-*Developer: Christoph Seibel, Andre Nickel (Students).
+*Developer: Christoph Seibel, Jens Cedric Schug, Andre Nickel (Students).
